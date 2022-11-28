@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+</style>
+    <script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Yang Bener Nih")
+    alert("Bener Nih Ya")
+    alert("Aku sayang kamu")
+  window.location = "https://wa.me/6281298200150?text=iya%20aku%20mau%20nikah%20sama%20kamu";
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=700
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=700
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=610
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+    
+  </head>
+  <body>
+    <div class="container-md">
+        
+    
+    <div class="text-center mt-3"><h2><marquee>Hallo Sayang, apa kabar?</marquee></h2>
+        <div class="mt-5">
+        <img src="https://images.unsplash.com/photo-1595662000432-f8cdba893fa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="img-fluid" alt="...">
+    </div>
+      <div class="text-center mt-5">
+        <h2><p><b>Mau Kah Kau Ku Nikahi Mba *****</b></p></h2>
+      </div>  
+    <div id="By">
+    <!-- <input class="btn-btn-primary" type="button" value=" Iya boleh " onClick="f1()" /> -->
+    <button class="btn btn-success" style="position :relative;" type="button" value="Iya Boleh" onClick="f1()">Iya Boleh</button>
+    </div>
+    <div ID="Bn" class="mt-5"style="position:absolute; left:166px; top:610px; width:210px; height:210px;">
+    <!-- <input type="button" value=" ih noo " onMouseOver="f()" /> -->
+    <button class="btn btn-primary" type="button" value="Ih Ngga Mau" onmouseover="f()">Ih Ngga Mau</button>
+    </div>
+    </div>
+</div>
+  </body>
+</html>
